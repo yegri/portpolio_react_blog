@@ -15,12 +15,11 @@ clientX, clientY와 pageX,pageY의 차이점 <br>
 
 <h3> 실습을 통해 알게된 점 </h3>
 
-<p> scrollIntoView() 메소드 <br>
-특정 element를 기준으로 스크롤을 이동 <br>
+<p> scrollIntoView() 메소드 : 특정 element를 기준으로 스크롤을 이동 <br>
 1. element.scrollIntoView(); <br>
 2. element.scrollIntoView(alignToTop);// Boolean  <br>
 3. parameterelement.scrollIntoView(scrollIntoViewOptions); // Object parameter <br>
- - behavior : 전환 애니메이션 정의 (auto || smooth) <br>
+  - behavior : 전환 애니메이션 정의 (auto || smooth) <br>
  - block : 수직 정렬 (start || center || end || nearest) <br>
  - inline : 수평 정렬 (start || center || end || nearest)
 </p>
