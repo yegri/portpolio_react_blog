@@ -6,8 +6,13 @@
 
 <p> document.querySelector를 통한 요소접근 <br>
 document.addEventListener를 통한 이벤트 불러오기 <br>
+getBoundingClientRect를 통한 요소 위치 구하기 <br>
 clientX, clientY와 pageX,pageY의 차이점 <br>
 자바스크립트를 이용한 동적 구현</p>
+
+<b> 성능 개선 </b>
+<p>top과 right를 이용하면 ---> 레이아웃과 페인트가 계속해서 일어남 ---> 성능 저하 <br>
+해결법 ---> transform: translate를 이용하면 composite만 일어남 ---> 성능 개선 </p>
 
 # js_training_2
 
