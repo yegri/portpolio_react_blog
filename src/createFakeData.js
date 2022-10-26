@@ -1,5 +1,5 @@
 import Post from './models/post';
-import Pst from './models/post';
+//import Pst from './models/post';
 
 export default function createFakeData(){
 
